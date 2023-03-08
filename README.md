@@ -24,7 +24,7 @@
 // in your root build.gradle
 allprojects {
     repositories {
-        /*..*/.
+        ..
         maven { url 'https://jitpack.io' }
     }
 }
@@ -65,7 +65,7 @@ fun startScan(deviceTypes: List<AtfleeDeviceType>)
 fun stopScan()
 
 // 측정모드 시작 (기기를 연결하고 측정 모드로 진입)
-fun startMeasureMode(deviceAddress: String, deviceType: AtfleeDeviceType, user: AtfleeUser)
+fun startMeasureMode(deviceAddress: String, user: AtfleeUser)
 
 // 연결 끊기
 fun disconnect(address: String)
