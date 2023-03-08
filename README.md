@@ -31,14 +31,14 @@ allprojects {
 
 // in your app-level build.gradle
 dependencies {
-    implementation 'com.github.huraypositive:atflee-android-sdk:$version'
+    implementation 'com.github.huraypositive:atf-android-sdk:$version'
 }
 ```
 
 ## Sample Code
 - [sample](/sample) 모듈 참고
 
-## 사용 방법
+# 사용 방법
 
 ## Manifest.xml 권한 추가
 ```xml
